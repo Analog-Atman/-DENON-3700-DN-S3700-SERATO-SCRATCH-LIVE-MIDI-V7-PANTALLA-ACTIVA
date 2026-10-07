@@ -1,3 +1,6 @@
+Mapeo desarrollado por Analog-Atman. Prohibida su publicación, distribución o difusión atribuyéndose su autoría o desarrollo. Todo contenido que lo utilice deberá reconocer expresamente a Analog-Atman como su creador.
+
+
 Copy midi file in music/serato/midi folder and delete autosave file /// copiar el archivo en musica/serato/midi y borrar el archivo autosave. 
 
 MANTENER MEMO PRESIONADO PARA CONFIG DE LAS MAQUINAS .

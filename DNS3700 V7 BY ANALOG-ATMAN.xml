@@ -1,0 +1,523 @@
+<midi>
+    <OutputRate interval="2" amount="16" />
+    <Display type="Denon DN-HC4500" />
+    <Platter type="Denon DN-HC4500" />
+    
+    
+    <Modifier name="Shift Modifier 1" event_type="Note On" channel="1" control="1" />
+    <Modifier name="Shift Modifier 2" event_type="Note On" channel="1" control="54" />
+    <Modifier name="Shift Modifier 3" event_type="Note On" channel="1" control="21" />
+    <Modifier name="Shift Modifier 4" event_type="Note On" channel="1" control="18" />
+    <Modifier name="Shift Modifier 5" event_type="Note On" channel="1" control="19" />
+    <Modifier name="Shift Modifier 6" event_type="Note On" channel="1" control="20" />
+
+    <Control name="Auto Loop Button A" channel="1" event_type="Note On" control="21" />
+    
+    <Control name="Effect Master Knob 1 1" channel="1" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 4" />
+    <Control name="Effect Master Knob 2 1" channel="1" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 5" />
+    <Control name="Effect Master Knob 3 1" channel="1" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 6" />
+    
+    <Control name="Super Knob Mode Button 1" channel="1" event_type="Note On" data_type="Relative OnOff" control="16" on_modifier="Shift Modifier 2" />    
+    
+    <Control name="Ultra Knob Mode Button 1" channel="1" event_type="Note On" data_type="Relative OnOff" control="17" on_modifier="Shift Modifier 2" />
+     
+    <Control name="Effect Ultra Select 1" channel="1" event_type="Control Change" data_type="Relative OnOff" control="84" on_modifier="Shift Modifier 2" />
+    <Control name="Effect Ultra Select 1" channel="1" event_type="Control Change" data_type="Relative OnOff" control="84" on_modifier="Shift Modifier 3" />
+
+    <Control name="Effect Ultra Knob 1" channel="1" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 2" />
+    <Control name="Effect Ultra Knob 1" channel="1" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 3" />
+    
+    <Control name="Effect Master Knob 1 1" channel="1" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 4" />
+    <Control name="Effect Master Knob 2 1" channel="1" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 5" />
+    <Control name="Effect Master Knob 3 1" channel="1" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 6" />
+    
+    <Control name="Effect Select 1 1" channel="1" event_type="Control Change" data_type="Relative OnOff" control="84" on_modifier="Shift Modifier 4" />
+    <Control name="Effect Select 2 1" channel="1" event_type="Control Change" data_type="Relative OnOff" control="84" on_modifier="Shift Modifier 5" />
+    <Control name="Effect Select 3 1" channel="1" event_type="Control Change" data_type="Relative OnOff" control="84" on_modifier="Shift Modifier 6" />
+
+    <Control name="Effect Button 1 1" channel="1" event_type="Note On" control="18" />
+    <Control name="Effect Button 1 1" channel="1" event_type="Note On" control="21" on_modifier="Shift Modifier 4" />
+    <Control name="Effect Button 1 1" channel="1" event_type="Note On" control="85" on_modifier="Shift Modifier 4" />
+
+    <Control name="Effect Button 2 1" channel="1" event_type="Note On" control="21" on_modifier="Shift Modifier 5" />
+    <Control name="Effect Button 2 1" channel="1" event_type="Note On" control="19" />
+
+    <Control name="Effect Button 3 1" channel="1" event_type="Note On" control="21" on_modifier="Shift Modifier 6" />
+    <Control name="Effect Button 3 2" channel="1" event_type="Note On" control="21" data_type="Relative OnOff" on_modifier="Shift Modifier 6" />
+    <Control name="Effect Button 3 1" channel="1" event_type="Note On" control="20" />
+
+    <Control name="Effects Button" channel="1" event_type="Note On" control="20" on_modifier="Shift Modifier 2" />
+    <Control name="Red Hammer Cue Point 1 A" channel="1" event_type="Note On" control="23" />
+    <Control name="Red Hammer Cue Point 2 A" channel="1" event_type="Note On" control="24" />
+    <Control name="Red Hammer Cue Point 3 A" channel="1" event_type="Note On" control="25" />
+    <Control userio_event="kCuePointDelete" userio_property="0" deck_id="0" channel="1" event_type="Note On" control="26" />
+    <Control userio_event="kCuePointDelete" userio_property="1" deck_id="0" channel="1" event_type="Note On" control="27" />
+    <Control userio_event="kCuePointDelete" userio_property="2" deck_id="0" channel="1" event_type="Note On" control="28" />
+    <Control name="Next Track A" channel="1" event_type="Note On" control="39" />
+    <Control name="HC4500 Time Remaining A" channel="1" event_type="Note On" control="35" />
+    <Control name="HC4500 Title Button A" channel="1" event_type="Note On" control="37" />
+    <!-- DN-S3700 DISPLAY button: Note 22 reserved; no confirmed SSL display-mode handler yet. -->
+    
+    <Control name="Auto Loop Button A" channel="1" event_type="Note On" control="29" />   
+    <Control name="Reloop Button A" channel="1" event_type="Note On" control="64" />
+    <Control name="Loop Roll Button A" channel="1" event_type="Note On" control="36" />   
+       
+    <Control name="Loop In Adjust Button A" channel="1" event_type="Note On" control="55" />
+    <Control name="Loop Out Adjust Button A" channel="1" event_type="Note On" control="57" />
+
+    <Control name="AutoLoopSelect Knob A" channel="1" event_type="Control Change" data_type="Relative OnOff" control="85" />
+        
+    <Control name="Clear Loop Button A" channel="1" event_type="Note On" control="64" on_modifier="Shift Modifier 2" />
+    
+    <Control name="Current Loop Button A" channel="1" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 1" />
+    <Control name="Current Loop Button A" channel="1" event_type="Control Change" control="85" on_modifier="Shift Modifier 1" />
+    
+    <!-- Experimental DN-S3700 platter/jog input -->
+    <Control name="Platter Control Left" key="ctrl" channel="1" event_type="Note On" control="4" />
+    <Control name="Platter Control Left" channel="1" event_type="Note On" control="81" />
+    <Control name="Platter Control Left" channel="1" event_type="Control Change" control="81" data_type="Relative Binary Offset" />
+    <Control name="Scroll Library Knob" channel="1" event_type="Control Change" data_type="Relative OnOff" control="84" />
+    <Control name="Scroll Left Button" channel="1" event_type="Note On" control="2" on_modifier="Shift Modifier 2" />
+
+    <Control name="Scroll Right Button" channel="1" event_type="Note On" control="2" />
+    
+    <Control name="Library Back Button A" channel="1" event_type="Note On" control="48" />
+    <Control name="Browse Button" channel="1" event_type="Note On" control="18" on_modifier="Shift Modifier 1" />
+    
+    <Control name="Key Lock Button A DAW" channel="1" event_type="Note On" control="6" />
+    <Control name="Controller Tap Button A" channel="1" event_type="Note On" control="7" />
+    <Control name="Half Range Velocity Slider A" channel="1" event_type="Pitch Wheel" />
+    <Control name="Pitch Up A" channel="1" event_type="Note On" control="8" />
+    <Control name="Pitch Down A" channel="1" event_type="Note On" control="9" />
+    <Control name="Rewind A" channel="1" event_type="Note On" control="17" />
+    <Control name="Controller Cue Button A" channel="1" event_type="Note On" control="66" />
+    <Control name="Play Forward A" channel="1" event_type="Note On" control="67" />
+    <Control name="Next Loop Button A" channel="1" event_type="Note On" control="10" />
+    <Control name="Prev Loop Button A" channel="1" event_type="Note On" control="11" />
+    <Control name="Fast Forward A" channel="1" event_type="Note On" control="16" />
+    <Control name="Effect Ultra On Button 1" channel="1" event_type="Note On" control="68" />
+    <Control name="Censor Button A" channel="1" event_type="Note On" control="69" />
+    <Control name="Controller Reverse Toggle A" channel="1" event_type="Note On" control="70" />
+    <Control name="HC4500 Library Select Button A" channel="1" event_type="Note On" control="40" />
+    <Control name="Velocity Slider A" channel="1" event_type="Control Change" control="84" on_modifier="Shift Modifier 1" />
+    <Control name="Velocity Slider A" channel="1" event_type="Control Change" data_type="Relative OnOff" control="84" on_modifier="Shift Modifier 1" />
+
+
+        
+
+    
+    
+    <Modifier name="Shift Modifier 1" event_type="Note On" channel="2" control="1" />
+    <Modifier name="Shift Modifier 2" event_type="Note On" channel="2" control="54" />
+    <Modifier name="Shift Modifier 3" event_type="Note On" channel="2" control="21" />
+    <Modifier name="Shift Modifier 4" event_type="Note On" channel="2" control="18" />
+    <Modifier name="Shift Modifier 5" event_type="Note On" channel="2" control="19" />
+    <Modifier name="Shift Modifier 6" event_type="Note On" channel="2" control="20" />
+    
+    <Control name="Auto Loop Button B" channel="2" event_type="Note On" control="21" />
+    
+    <Control name="Effect Master Knob 1 2" channel="2" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 4" />
+    <Control name="Effect Master Knob 2 2" channel="2" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 5" />
+    
+    <Control name="Super Knob Mode Button 2" channel="2" event_type="Note On" data_type="Relative OnOff" control="16" on_modifier="Shift Modifier 2" />
+    
+    <Control name="Ultra Knob Mode Button 2" channel="2" event_type="Note On" data_type="Relative OnOff" control="17" on_modifier="Shift Modifier 2" />
+
+    <Control name="Effect Ultra Select 2" channel="2" event_type="Control Change" data_type="Relative OnOff" control="84" on_modifier="Shift Modifier 2" />
+    <Control name="Effect Ultra Select 2" channel="2" event_type="Control Change" data_type="Relative OnOff" control="84" on_modifier="Shift Modifier 3" />
+    
+    <Control name="Effect Ultra Knob 2" channel="2" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 2" />
+    <Control name="Effect Ultra Knob 2" channel="2" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 3" />
+    
+    <Control name="Effect Master Knob 1 2" channel="2" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 4" />
+    <Control name="Effect Master Knob 2 2" channel="2" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 5" />
+    <Control name="Effect Master Knob 3 2" channel="2" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 6" />
+    
+    <Control name="Effect Select 1 2" channel="2" event_type="Control Change" data_type="Relative OnOff" control="84" on_modifier="Shift Modifier 4" />
+    <Control name="Effect Select 2 2" channel="2" event_type="Control Change" data_type="Relative OnOff" control="84" on_modifier="Shift Modifier 5" />
+    <Control name="Effect Select 3 2" channel="2" event_type="Control Change" data_type="Relative OnOff" control="84" on_modifier="Shift Modifier 6" />
+    
+    <Control name="Effect Button 1 2" channel="2" event_type="Note On" control="18" />
+    <Control name="Effect Button 1 2" channel="2" event_type="Note On" control="21" on_modifier="Shift Modifier 4" />
+    <Control name="Effect Button 1 2" channel="2" event_type="Note On" control="85" on_modifier="Shift Modifier 4" />
+
+    <Control name="Effect Button 2 2" channel="2" event_type="Note On" control="19" />
+    <Control name="Effect Button 2 2" channel="2" event_type="Note On" control="21" on_modifier="Shift Modifier 5" />
+    
+    <Control name="Effect Button 3 2" channel="2" event_type="Note On" control="20" />
+    <Control name="Effect Button 3 2" channel="2" event_type="Note On" control="21" data_type="Relative OnOff" on_modifier="Shift Modifier 6" />
+    <Control name="Effect Button 3 2" channel="2" event_type="Note On" control="21" on_modifier="Shift Modifier 6" />
+
+    <Control name="Effects Button" channel="2" event_type="Note On" control="20" on_modifier="Shift Modifier 2" />
+    <Control name="Red Hammer Cue Point 1 B" channel="2" event_type="Note On" control="23" />
+    <Control name="Red Hammer Cue Point 2 B" channel="2" event_type="Note On" control="24" />
+    <Control name="Red Hammer Cue Point 3 B" channel="2" event_type="Note On" control="25" />
+    <Control userio_event="kCuePointDelete" userio_property="0" deck_id="1" channel="2" event_type="Note On" control="26" />
+    <Control userio_event="kCuePointDelete" userio_property="1" deck_id="1" channel="2" event_type="Note On" control="27" />
+    <Control userio_event="kCuePointDelete" userio_property="2" deck_id="1" channel="2" event_type="Note On" control="28" />
+    <Control name="Next Track B" channel="2" event_type="Note On" control="39" />
+    <Control name="HC4500 Time Remaining B" channel="2" event_type="Note On" control="35" />
+    <Control name="HC4500 Title Button B" channel="2" event_type="Note On" control="37" />
+    <!-- DN-S3700 DISPLAY button: Note 22 reserved; no confirmed SSL display-mode handler yet. -->
+    
+    <Control name="Auto Loop Button B" channel="2" event_type="Note On" control="29" />
+    <Control name="Reloop Button B" channel="2" event_type="Note On" control="64" />
+    <Control name="Loop Roll Button B" channel="2" event_type="Note On" control="36" />
+    
+    <Control name="Loop In Adjust Button B" channel="2" event_type="Note On" control="55" />
+    <Control name="Loop Out Adjust Button B" channel="2" event_type="Note On" control="57" />
+    
+    <Control name="AutoLoopSelect Knob B" channel="2" event_type="Control Change" data_type="Relative OnOff" control="85" />
+    
+    <Control name="Clear Loop Button B" channel="2" event_type="Note On" control="64" on_modifier="Shift Modifier 2" />
+    
+     <Control name="Current Loop Button B" channel="2" event_type="Control Change" data_type="Relative OnOff" control="85" on_modifier="Shift Modifier 1" />
+     <Control name="Current Loop Button B" channel="2" event_type="Control Change" control="85" on_modifier="Shift Modifier 1" />
+    
+    <!-- Experimental DN-S3700 platter/jog input -->
+    <Control name="Platter Control Right" key="ctrl" channel="2" event_type="Note On" control="4" />
+    <Control name="Platter Control Right" channel="2" event_type="Note On" control="81" />
+    <Control name="Platter Control Right" channel="2" event_type="Control Change" control="81" data_type="Relative Binary Offset" />
+    <Control name="Scroll Library Knob" channel="2" event_type="Control Change" data_type="Relative OnOff" control="84" />
+    <Control name="Scroll Left Button" channel="2" event_type="Note On" control="2" on_modifier="Shift Modifier 2" />
+    <Control name="Scroll Right Button" channel="2" event_type="Note On" control="2" />
+
+    <Control name="Library Back Button B" channel="2" event_type="Note On" control="48" />
+    <Control name="Browse Button" channel="2" event_type="Note On" control="18" on_modifier="Shift Modifier 1" />
+    <Control name="Key Lock Button B DAW" channel="2" event_type="Note On" control="6" />
+    <Control name="Controller Tap Button B" channel="2" event_type="Note On" control="7" />
+    <Control name="Half Range Velocity Slider B" channel="2" event_type="Pitch Wheel" />
+    <Control name="Pitch Up B" channel="2" event_type="Note On" control="8" />
+    <Control name="Pitch Down B" channel="2" event_type="Note On" control="9" />
+    <Control name="Rewind B" channel="2" event_type="Note On" control="17" />
+    <Control name="Controller Cue Button B" channel="2" event_type="Note On" control="66" />
+    <Control name="Play Forward B" channel="2" event_type="Note On" control="67" />
+    <Control name="Next Loop Button B" channel="2" event_type="Note On" control="10" />
+    <Control name="Prev Loop Button B" channel="2" event_type="Note On" control="11" />
+    <Control name="Fast Forward B" channel="2" event_type="Note On" control="16" />
+    <Control name="Effect Ultra On Button 2" channel="2" event_type="Note On" control="68" />
+    <Control name="Censor Button B" channel="2" event_type="Note On" control="69" />
+    <Control name="Controller Reverse Toggle B" channel="2" event_type="Note On" control="70" />
+    <Control name="HC4500 Library Select Button B" channel="2" event_type="Note On" control="40" />
+    <Control name="Velocity Slider B" channel="2" event_type="Control Change" data_type="Relative OnOff" control="84" on_modifier="Shift Modifier 1" />
+    <Control name="Velocity Slider B" channel="2" event_type="Control Change" control="84" on_modifier="Shift Modifier 1" />
+    
+    
+    
+
+    <Output name="Loop In Adjust Button A">
+        <On channel="1" event_type="Control Change" control="74" value="36" />
+        <Off channel="1" event_type="Control Change" control="75" value="36" />
+        <Flashing channel="1" event_type="Control Change" control="76" value="36" />
+    </Output>
+    <Output name="Loop Out Adjust Button A">
+        <On channel="1" event_type="Control Change" control="74" value="64" />
+        <Off channel="1" event_type="Control Change" control="75" value="64" />
+        <Flashing channel="1" event_type="Control Change" control="76" value="64" />
+    </Output>
+    
+ 
+     <Output name="Auto Loop Eight Button A">
+        <On channel="1" event_type="Control Change" control="76" value="43" />
+        <Off channel="1" event_type="Control Change" control="75" value="43" />
+    </Output>
+    <Output name="Auto Loop Four Button A">
+        <On channel="1" event_type="Control Change" control="76" value="43" />
+        <Off channel="1" event_type="Control Change" control="75" value="43" />
+    </Output>
+    <Output name="Auto Loop Two Button A">
+        <On channel="1" event_type="Control Change" control="76" value="43" />
+        <Off channel="1" event_type="Control Change" control="75" value="43" />
+    </Output>
+    <Output name="Auto Loop One Button A">
+        <On channel="1" event_type="Control Change" control="76" value="43" />
+        <Off channel="1" event_type="Control Change" control="75" value="43" />
+    </Output>
+    <Output name="Auto Loop Half Button A">
+        <On channel="1" event_type="Control Change" control="76" value="43" />
+        <Off channel="1" event_type="Control Change" control="75" value="43" />
+    </Output>
+    <Output name="Auto Loop Fourth Button A">
+        <On channel="1" event_type="Control Change" control="76" value="43" />
+        <Off channel="1" event_type="Control Change" control="75" value="43" />
+    </Output>
+    <Output name="Auto Loop Eight Button A">
+        <On channel="1" event_type="Control Change" control="76" value="43" />
+        <Off channel="1" event_type="Control Change" control="75" value="43" />
+    </Output>
+    
+    <Output name="Auto Loop Button A">
+        <On channel="1" event_type="Control Change" control="76" value="45" />
+        <Off channel="1" event_type="Control Change" control="74" value="45" />
+    </Output>
+    <Output name="Loop Roll Button A">
+        <On channel="1" event_type="Control Change" control="76" value="45" />
+        <Off channel="1" event_type="Control Change" control="74" value="45" />
+    </Output>
+
+    <Output name="Cue Point 1 A">
+        <On channel="1" event_type="Control Change" control="74" value="17" />
+        <Off channel="1" event_type="Control Change" control="74" value="18" />
+    </Output>
+    <Output name="Cue Point 2 A">
+        <On channel="1" event_type="Control Change" control="74" value="19" />
+        <Off channel="1" event_type="Control Change" control="74" value="20" />
+    </Output>
+    <Output name="Cue Point 3 A">
+        <On channel="1" event_type="Control Change" control="74" value="21" />
+        <Off channel="1" event_type="Control Change" control="74" value="22" />
+    </Output>
+    <Output name="Controller Cue Button A">
+        <Off channel="1" event_type="Control Change" control="74" value="38" />
+        <On channel="1" event_type="Control Change" control="76" value="38" />
+        <Flashing channel="1" event_type="Control Change" control="76" value="38" />
+    </Output>
+        
+    <Output name="Effect Button 1 1">
+        <On channel="1" event_type="Control Change" control="74" value="11" />
+        <Off channel="1" event_type="Control Change" control="75" value="11" />
+    </Output>
+    <Output name="Effect Button 2 1">
+        <On channel="1" event_type="Control Change" control="74" value="13" />
+        <Off channel="1" event_type="Control Change" control="75" value="13" />
+    </Output>
+    <Output name="Effect Button 3 1">
+        <On channel="1" event_type="Control Change" control="74" value="15" />
+        <Off channel="1" event_type="Control Change" control="75" value="15" />
+    </Output>
+    
+    <Output name="Effect Ultra On Button 1">
+        <On channel="1" event_type="Control Change" control="74" value="11" />
+        <Off channel="1" event_type="Control Change" control="75" value="11" />
+    </Output>
+    <Output name="Controller Tap Button A">
+        <Off channel="1" event_type="Control Change" control="74" value="9" />
+        <On channel="1" event_type="Control Change" control="76" value="9" />
+        <Flashing channel="1" event_type="Control Change" control="76" value="9" />
+    </Output>
+
+     <Output name="Relative Mode Button Small A">
+        <On channel="1" event_type="Control Change" control="74" value="67" />
+        <Off channel="1" event_type="Control Change" control="74" value="67" />
+    </Output>
+    <Output name="Absolute Mode Button Small A">
+        <On channel="1" event_type="Control Change" control="75" value="30" />
+        <Off channel="1" event_type="Control Change" control="74" value="30" />
+    </Output>
+    <Output name="Internal Mode Button Small A">
+        <On channel="1" event_type="Control Change" control="74" value="67" />
+        <Off channel="1" event_type="Control Change" control="74" value="67" />
+    </Output>
+    <Output name="RPM 33 A">
+        <On channel="1" event_type="Control Change" control="74" value="68" />
+        <Off channel="1" event_type="Control Change" control="75" value="68" />
+    </Output>
+        <Output name="RPM 45 A">
+        <On channel="1" event_type="Control Change" control="75" value="7" />
+        <Off channel="1" event_type="Control Change" control="74" value="7" />
+    </Output>
+    <Output name="Previous Track A">
+        <On channel="1" event_type="Control Change" control="75" value="2" />
+        <Off channel="1" event_type="Control Change" control="74" value="2" />
+    </Output>
+  
+    
+    <Output name="Key Lock Button A">
+        <On channel="1" event_type="Control Change" control="74" value="8" />
+        <Off channel="1" event_type="Control Change" control="75" value="8" />
+    </Output>
+    <Output name="Censor Button A">
+        <On channel="1" event_type="Control Change" control="74" value="41" />
+        <Off channel="1" event_type="Control Change" control="75" value="41" />
+    </Output>
+    <Output name="Play Forward A">
+        <Off channel="1" event_type="Control Change" control="74" value="39" />
+        <On channel="1" event_type="Control Change" control="76" value="39" />
+        <Flashing channel="1" event_type="Control Change" control="76" value="39" />
+    </Output>
+    <Output name="Play Forward A">
+        <Off channel="1" event_type="Control Change" control="74" value="67" />
+        <On channel="1" event_type="Control Change" control="74" value="67" />
+        <Flashing channel="1" event_type="Control Change" control="74" value="67" />
+    </Output>
+    
+
+    
+    <Output name="Loop In Adjust Button B">
+        <On channel="2" event_type="Control Change" control="74" value="36" />
+        <Off channel="2" event_type="Control Change" control="75" value="36" />
+        <Flashing channel="2" event_type="Control Change" control="76" value="36" />
+    </Output>
+    <Output name="Loop Out Adjust Button B">
+        <On channel="2" event_type="Control Change" control="74" value="64" />
+        <Off channel="2" event_type="Control Change" control="75" value="64" />
+        <Flashing channel="2" event_type="Control Change" control="76" value="64" />
+    </Output>
+    
+    <Output name="Auto Loop Eight Button B">
+        <On channel="2" event_type="Control Change" control="76" value="43" />
+        <Off channel="2" event_type="Control Change" control="75" value="43" />
+    </Output>
+    <Output name="Auto Loop Four Button B">
+        <On channel="2" event_type="Control Change" control="76" value="43" />
+        <Off channel="2" event_type="Control Change" control="75" value="43" />
+    </Output>
+    <Output name="Auto Loop Two Button B">
+        <On channel="2" event_type="Control Change" control="76" value="43" />
+        <Off channel="2" event_type="Control Change" control="75" value="43" />
+    </Output>
+    <Output name="Auto Loop One Button B">
+        <On channel="2" event_type="Control Change" control="76" value="43" />
+        <Off channel="2" event_type="Control Change" control="75" value="43" />
+    </Output>
+    <Output name="Auto Loop Half Button B">
+        <On channel="2" event_type="Control Change" control="76" value="43" />
+        <Off channel="2" event_type="Control Change" control="75" value="43" />
+    </Output>
+    <Output name="Auto Loop Fourth Button B">
+        <On channel="2" event_type="Control Change" control="76" value="43" />
+        <Off channel="2" event_type="Control Change" control="75" value="43" />
+    </Output>
+    <Output name="Auto Loop Eight Button B">
+        <On channel="2" event_type="Control Change" control="76" value="43" />
+        <Off channel="2" event_type="Control Change" control="75" value="43" />
+    </Output>
+    
+    <Output name="Auto Loop Button B">
+        <On channel="2" event_type="Control Change" control="76" value="45" />
+        <Off channel="2" event_type="Control Change" control="74" value="45" />
+    </Output>  
+    <Output name="Loop Roll Button B">
+        <On channel="2" event_type="Control Change" control="76" value="45" />
+        <Off channel="2" event_type="Control Change" control="74" value="45" />
+    </Output>
+
+
+    <Output name="Cue Point 1 B">
+        <On channel="2" event_type="Control Change" control="74" value="17" />
+        <Off channel="2" event_type="Control Change" control="74" value="18" />
+    </Output>
+    <Output name="Cue Point 2 B">
+        <On channel="2" event_type="Control Change" control="74" value="19" />
+        <Off channel="2" event_type="Control Change" control="74" value="20" />
+    </Output>
+    <Output name="Cue Point 3 B">
+        <On channel="2" event_type="Control Change" control="74" value="21" />
+        <Off channel="2" event_type="Control Change" control="74" value="22" />
+    </Output>
+    <Output name="Controller Cue Button B">
+        <Off channel="2" event_type="Control Change" control="74" value="38" />
+        <On channel="2" event_type="Control Change" control="76" value="38" />
+        <Flashing channel="2" event_type="Control Change" control="76" value="38" />
+    </Output>
+    
+    <Output name="Effect Button 1 2">
+        <On channel="2" event_type="Control Change" control="74" value="11" />
+        <Off channel="2" event_type="Control Change" control="75" value="11" />
+    </Output>
+    <Output name="Effect Button 2 2">
+        <On channel="2" event_type="Control Change" control="74" value="13" />
+        <Off channel="2" event_type="Control Change" control="75" value="13" />
+    </Output>
+    <Output name="Effect Button 3 2">
+        <On channel="2" event_type="Control Change" control="74" value="15" />
+        <Off channel="2" event_type="Control Change" control="75" value="15" />
+    </Output>
+    
+    <Output name="Effect Ultra On Button 2">
+        <On channel="2" event_type="Control Change" control="74" value="11" />
+        <Off channel="2" event_type="Control Change" control="75" value="11" />
+    </Output>
+    <Output name="Controller Tap Button B">
+        <Off channel="2" event_type="Control Change" control="74" value="9" />
+        <On channel="2" event_type="Control Change" control="76" value="9" />
+        <Flashing channel="2" event_type="Control Change" control="76" value="9" />
+    </Output>
+
+     <Output name="Relative Mode Button Small B">
+        <On channel="2" event_type="Control Change" control="74" value="67" />
+        <Off channel="2" event_type="Control Change" control="74" value="67" />
+    </Output>
+    <Output name="Absolute Mode Button Small B">
+        <On channel="2" event_type="Control Change" control="75" value="30" />
+        <Off channel="2" event_type="Control Change" control="74" value="30" />
+    </Output>
+    <Output name="Internal Mode Button Small B">
+        <On channel="2" event_type="Control Change" control="74" value="67" />
+        <Off channel="2" event_type="Control Change" control="74" value="67" />
+    </Output>
+    <Output name="RPM 33 B">
+        <On channel="2" event_type="Control Change" control="74" value="68" />
+        <Off channel="2" event_type="Control Change" control="75" value="68" />
+    </Output>
+        <Output name="RPM 45 B">
+        <On channel="2" event_type="Control Change" control="75" value="7" />
+        <Off channel="2" event_type="Control Change" control="74" value="7" />
+    </Output>
+    <Output name="Previous Track B">
+        <On channel="2" event_type="Control Change" control="75" value="2" />
+        <Off channel="2" event_type="Control Change" control="74" value="2" />
+    </Output>
+    
+    
+    <Output name="Key Lock Button B">
+        <On channel="2" event_type="Control Change" control="74" value="8" />
+        <Off channel="2" event_type="Control Change" control="75" value="8" />
+    </Output>
+    <Output name="Censor Button B">
+        <On channel="2" event_type="Control Change" control="74" value="41" />
+        <Off channel="2" event_type="Control Change" control="75" value="41" />
+    </Output>
+    <Output name="Play Forward B">
+        <Off channel="2" event_type="Control Change" control="74" value="39" />
+        <On channel="2" event_type="Control Change" control="76" value="39" />
+        <Flashing channel="2" event_type="Control Change" control="76" value="39" />
+    </Output>
+    <Output name="Play Forward B">
+        <Off channel="2" event_type="Control Change" control="74" value="67" />
+        <On channel="2" event_type="Control Change" control="74" value="67" />
+        <Flashing channel="2" event_type="Control Change" control="74" value="67" />
+    </Output>
+    
+
+    <Output name="Controller Reverse Toggle A">
+        <Off channel="1" event_type="Control Change" control="75" value="58" />
+        <On channel="1" event_type="Control Change" control="74" value="58" />
+        <Flashing channel="1" event_type="Control Change" control="76" value="58" />
+    </Output>
+    <Output name="Controller Reverse Toggle B">
+        <Off channel="2" event_type="Control Change" control="75" value="58" />
+        <On channel="2" event_type="Control Change" control="74" value="58" />
+        <Flashing channel="2" event_type="Control Change" control="76" value="58" />
+    </Output>
+    <!-- DN-S3700 blue display bezels, copied from the earlier S3700 mapping logic -->
+    <Output name="Relative Mode Button Small A">
+        <On channel="1" event_type="Control Change" control="74" value="67" />
+        <Off channel="1" event_type="Control Change" control="74" value="67" />
+    </Output>
+    <Output name="Relative Mode Button Small A">
+        <On channel="1" event_type="Control Change" control="74" value="68" />
+        <Off channel="1" event_type="Control Change" control="75" value="68" />
+    </Output>
+    <Output name="Relative Mode Button Small B">
+        <On channel="2" event_type="Control Change" control="74" value="67" />
+        <Off channel="2" event_type="Control Change" control="74" value="67" />
+    </Output>
+    <Output name="Relative Mode Button Small B">
+        <On channel="2" event_type="Control Change" control="74" value="68" />
+        <Off channel="2" event_type="Control Change" control="75" value="68" />
+    </Output>
+
+    <!-- PLATTER MODE green LED; keep illuminated whenever Scratch Live reports platter state -->
+    <Output name="Platter Control Left">
+        <Off channel="1" event_type="Control Change" control="74" value="5" />
+        <On channel="1" event_type="Control Change" control="74" value="5" />
+        <Flashing channel="1" event_type="Control Change" control="74" value="5" />
+    </Output>
+    <Output name="Platter Control Right">
+        <Off channel="2" event_type="Control Change" control="74" value="5" />
+        <On channel="2" event_type="Control Change" control="74" value="5" />
+        <Flashing channel="2" event_type="Control Change" control="74" value="5" />
+    </Output>
+
+</midi>
